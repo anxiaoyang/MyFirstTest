@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MyFirstTest"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "演示私有库创建demo"
 
   # This description is used to generate tags and improve search results.
@@ -134,6 +134,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency "SDWebImage", "~> 3.7.6"
+  spec.dependency "AvoidCrash", "~> 2.5.2"
 
 end
 
